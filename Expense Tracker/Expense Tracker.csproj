@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
@@ -21,6 +21,10 @@
   <ItemGroup>
     <ProjectReference Include="..\ExpenseTrackerAPI\ExpenseTrackerAPI.csproj" />
     <ProjectReference Include="..\ExpenseTrackerLibrary\ExpenseTrackerLibrary.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Controllers\" />
   </ItemGroup>
 
 </Project>
