@@ -32,7 +32,7 @@ namespace ExpenseTracker.Tests
             var category = new Category { Title = "TestCategory" };
 
             // Act
-            var result = await controller.Create(category);
+            var result = await controller.AddOrEdit(category);
 
             // Assert
             var redirectToActionResult = Assert.IsType<RedirectToActionResult>(result);

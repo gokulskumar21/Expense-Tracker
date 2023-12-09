@@ -25,6 +25,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Expense Tracker\Expense Tracker.csproj" />
+    <ProjectReference Include="..\ExpenseTrackerAPI\ExpenseTrackerAPI.csproj" />
+    <ProjectReference Include="..\ExpenseTrackerLibrary\ExpenseTrackerLibrary.csproj" />
   </ItemGroup>
 
 </Project>
