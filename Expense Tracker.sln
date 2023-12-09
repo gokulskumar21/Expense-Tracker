@@ -3,13 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34202.233
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Expense Tracker", "Expense Tracker\Expense Tracker.csproj", "{416B04B2-2DC2-48F1-826B-1C8E79FC68EB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Expense Tracker", "Expense Tracker\Expense Tracker.csproj", "{416B04B2-2DC2-48F1-826B-1C8E79FC68EB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpenseTracker.Tests", "ExpenseTracker.Tests\ExpenseTracker.Tests.csproj", "{152BD0AC-BC1B-46B9-A664-241BEB4EA5CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExpenseTracker.Tests", "ExpenseTracker.Tests\ExpenseTracker.Tests.csproj", "{152BD0AC-BC1B-46B9-A664-241BEB4EA5CF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpenseTrackerLibrary", "ExpenseTrackerLibrary\ExpenseTrackerLibrary.csproj", "{729F1D03-5D19-4753-9F9C-8D9F6E9B3D58}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExpenseTrackerLibrary", "ExpenseTrackerLibrary\ExpenseTrackerLibrary.csproj", "{729F1D03-5D19-4753-9F9C-8D9F6E9B3D58}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpenseTrackerAPI", "ExpenseTrackerAPI\ExpenseTrackerAPI.csproj", "{38911AC2-BD90-45DF-BB82-9535DE45C333}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExpenseTrackerAPI", "ExpenseTrackerAPI\ExpenseTrackerAPI.csproj", "{38911AC2-BD90-45DF-BB82-9535DE45C333}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1340C158-1CF9-466B-9EE7-5B734930355F}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
